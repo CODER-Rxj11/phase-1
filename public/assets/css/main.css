@@ -18,9 +18,9 @@
 
 /* Colors */
 :root {
-  --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-default: rgb(24, 38, 80);
+  --color-primary: rgb(24, 38, 80);;
+  --color-secondary: #e69bec;
 }
 
 /* Smooth scroll behavior */
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #7600b6;
   text-decoration: none;
 }
 
@@ -248,11 +248,12 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: rgb(165, 107, 165);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
-  color: #fff;
+  color: black;
   padding: 0;
 }
 
